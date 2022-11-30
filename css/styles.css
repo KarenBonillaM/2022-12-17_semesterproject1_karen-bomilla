@@ -1,5 +1,11 @@
 body {
     background-color: #FBFCDC;
+    color:black;
+}
+
+h1, 
+h2 {
+    color: #0277E0;
 }
 
 img {
@@ -9,3 +15,78 @@ img {
 footer {
     background-color: #fec400;
 }
+
+.heading {
+    background-color: #0277E0;
+} 
+
+.heading h1 {
+    color: black;
+}
+
+.title {
+    background-color: #A5C8E7;
+    color: black;
+}
+
+.cta-date {
+    background-color: #A5C8E7;
+    color: black;
+}
+
+.cta h3 {
+    background-color: #fec400;
+    color: black;
+}
+
+/*Home*/
+
+.spaces {
+    background-color: #D47636;
+}
+
+.aeronautics {
+    background-color: #459720;
+}
+
+.energetica {
+    background-color: #0277E0;
+}
+
+.night-museum {
+    background-color: #C741A2;
+}
+
+.news h3 {
+    color: #FBFCDC;
+}
+
+/*Visit*/
+
+.tours {
+    background-color: #D47636;
+}
+
+.accessibility {
+    background-color: #fec400;
+}
+
+.food {
+    background-color: #C741A2;
+}
+
+.shop {
+    background-color: #0277E0;
+}
+
+/*Tickets*/
+
+.tickets h1 {
+    background-color: #C741A2;
+    color: #FBFCDC;
+}
+
+
+
+
+/* https://www.youtube.com/watch?v=fjrviv5pw5M */

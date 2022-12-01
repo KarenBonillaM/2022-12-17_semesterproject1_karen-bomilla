@@ -4,11 +4,16 @@
     src: url("https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap");
 }
 
+.logo {
+    width: 9vh;
+}
+
 
 body {
     background-color: #FBFCDC;
     color:black;
     font-family: "work Sans";
+    margin: auto;   
 }
 
 h1, 
@@ -27,6 +32,8 @@ footer {
 
 .heading {
     background-color: #0277E0;
+    color: black;
+    text-align: center;
 } 
 
 .heading h1 {
@@ -70,7 +77,23 @@ footer {
     color: #FBFCDC;
 }
 
+/*Explore*/
+
+.explore {
+    background-image: url(../images/binoculars.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*Visit*/
+
+.visit {
+    background-image: url(../images/museum-building.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .tours {
     background-color: #D47636;
@@ -88,11 +111,38 @@ footer {
     background-color: #0277E0;
 }
 
+/*Exhibition spaces*/
+
+.exhibition {
+    background-image: url(../images/elephant-museum.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*Tickets*/
 
 .tickets h1 {
     background-color: #C741A2;
     color: #FBFCDC;
+}
+
+/*Involved*/
+
+.involved {
+    background-image: url(../images/three.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Contact*/
+
+.contact {
+    background-image: url(../images/astronaut.jpg);
+    min-height: 28vh;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 

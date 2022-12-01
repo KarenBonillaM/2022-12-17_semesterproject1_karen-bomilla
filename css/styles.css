@@ -1,11 +1,20 @@
+@font-face {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap");
+}
+
+
 body {
     background-color: #FBFCDC;
     color:black;
+    font-family: "work Sans";
 }
 
 h1, 
 h2 {
     color: #0277E0;
+    font-family: "Anton";
 }
 
 img {

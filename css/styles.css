@@ -31,15 +31,26 @@ img {
     max-width: 100%;
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 footer {
     background-color: #fec400;
 }
 
+.heading-contact,
 .heading {
     background-color: #0277E0;
     color: black;
     text-align: center;
+    margin: 0 auto;
+    height: 9vh;
 } 
+
+.heading-contact {
+    width: 18vh;
+}
 
 .heading h1 {
     color: black;
@@ -48,16 +59,9 @@ footer {
 .title {
     background-color: #A5C8E7;
     color: black;
-}
-
-.cta-date {
-    background-color: #A5C8E7;
-    color: black;
-}
-
-.cta h3 {
-    background-color: #fec400;
-    color: black;
+    width: 20vh;
+    height: 7vh;
+    text-align: center;
 }
 
 .services-img,
@@ -67,10 +71,53 @@ footer {
     width: 25vh;
 }
 
+.spaces-robo,
+.spaces,
+.ages {
+    width: 34vh;
+}
+
+.csm-info,
+.rooms {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.take-part,
+.welcome-info,
+.exhibition-spaces,
+.for-all {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
 /*Home*/
 
+.spaces-robo,
 .spaces {
     background-color: #D47636;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.spaces {
+    height: 50vh;
+}
+
+.spaces-robo p,
+.spaces p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.spaces-robo {
+    height: 62vh;
+}
+
+.spaces img {
+    width: 34vh;
+    height: 22vh;
+    border-radius: inherit;
 }
 
 .aeronautics {
@@ -85,14 +132,34 @@ footer {
     background-color: #C741A2;
 }
 
+.news h2 {
+    width: 15vh;
+    height: 6vh;
+}
+
 .news h3 {
     color: #FBFCDC;
 }
 
-.welcome-info,
-.exhibition-spaces {
-    padding-left: 50px;
-    padding-right: 50px;
+.cta-date {
+    background-color: #A5C8E7;
+    color: black;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.cta h3 {
+    background-color: #fec400;
+    color: black;
+    width: 18vh;
+    height: 6vh;
+    border-radius: 7px;
+}
+
+.cta {
+    text-align: center;
 }
 
 /*Explore*/
@@ -152,6 +219,10 @@ footer {
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.take-part {
+    padding-top: 50px;
 }
 
 /*Contact*/

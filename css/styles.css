@@ -8,6 +8,40 @@
     width: 9vh;
 }
 
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+nav {
+    position: absolute;
+    background-color:#FBFCDC;
+    border: 2px solid #fec400;
+}
+
+header {
+    position: relative;
+}
+
+nav a {
+    display: block;
+    border-bottom: 1px solid #fec400;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px 15px 10px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
 
 body {
     background-color: #FBFCDC;

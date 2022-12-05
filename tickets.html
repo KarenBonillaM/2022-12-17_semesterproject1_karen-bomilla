@@ -32,9 +32,102 @@
         <section class="tickets">
             <h1>Buy tickets</h1>
         </section>
+        <section>
+            <div>
+                <p>Select Tickets</p>
+                <p>Price</p>
+                <p>Quantity</p>
+            </div>
+            <fieldset>
+                <p>Adult</p>
+                <p>Free</p>
+                <select class="form_input">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <p>Student</p>
+                <p>Free</p>
+                <select class="form_input">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <p>Child</p>
+                <p>Free</p>
+                <select class="form_input">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <p>Guided tour</p>
+                <p>Sek 70</p>
+                <select class="form_input">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </fieldset>
+        </section>
+        <section>
+            <form method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form_input" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form_input" required>
+                <legend>Payment</legend>
+                <label for="card_number">Card number</label>
+                <input type="tel" name="card_number" id="card_number" placeholder="Card Number" class="form_input" required>
+                <label for="yyyymm">YYYY/MM</label>
+                <input type="month" name="yyyymm" id="yyyymm" placeholder="YYYY/MM" class="form_input" required>
+                <label for="cvv">CVV</label>
+                <input type="tel" name="cvv" id="cvv" placeholder="CVV" class="form_input" required>
+                <input type="submit" value="Send" class="submit">
+            </form>
+        </section>
     </main>
     <footer>
         <section>
+            <input type="email" name="email" id="email" class="sign_up">
+            <label for="email">Sing up</label>
             <p>Enter your email to receive our newsletter</p>
         </section>
         <section>

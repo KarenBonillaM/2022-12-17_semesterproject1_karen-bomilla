@@ -101,7 +101,7 @@ footer {
 }
 
 .spaces {
-    height: 50vh;
+    height: 55vh;
 }
 
 .spaces-robo p,
@@ -114,6 +114,7 @@ footer {
     height: 62vh;
 }
 
+.spaces-robo img,
 .spaces img {
     width: 34vh;
     height: 22vh;
@@ -232,6 +233,22 @@ footer {
     min-height: 28vh;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.form_input {
+    border: 2px solid #0277E0;
+    background-color: #A5C8E7;
+}
+
+.sign_up,
+.form_input,
+.submit {
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: #0277E0;
+    color: #FBFCDC;
 }
 
 

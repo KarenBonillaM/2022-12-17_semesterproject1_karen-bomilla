@@ -33,11 +33,21 @@
             <h1 class="heading-contact">Contact Us</h1>
         </section>
         <section>
-
+            <form method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form_input" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form_input" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form_input"></textarea>
+                <input type="submit" value="Send" class="submit">
+            </form>
         </section>
     </main>
     <footer>
         <section>
+            <input type="email" name="email" id="email" class="sign_up">
+            <label for="email">Sing up</label>
             <p>Enter your email to receive our newsletter</p>
         </section>
         <section>

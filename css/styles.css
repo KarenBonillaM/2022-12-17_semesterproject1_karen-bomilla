@@ -29,10 +29,12 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 10px 30px 15px 10px;
+    font-weight: bold;
 }
 
 nav ul {
     padding: 0;
+    margin-bottom: 0;
 }
 
 nav li {
@@ -176,13 +178,23 @@ footer {
     color: #FBFCDC;
 }
 
+.cta-date,
+.cta h3 {
+    border-radius: 5px;
+}
+
 .cta-date {
     background-color: #A5C8E7;
     color: black;
     width: 15vh;
     height: 5vh;
-    border-radius: 7px;
     text-align: center;
+}
+
+.cta-date a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .cta h3 {
@@ -190,11 +202,11 @@ footer {
     color: black;
     width: 18vh;
     height: 6vh;
-    border-radius: 7px;
 }
 
 .cta {
     text-align: center;
+    text-decoration: none;
 }
 
 /*Explore*/

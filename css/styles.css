@@ -4,6 +4,10 @@
     src: url("https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap");
 }
 
+header {
+    margin: 0 15px;
+}
+
 .logo {
     width: 9vh;
 }
@@ -81,7 +85,8 @@ footer {
     color: black;
     text-align: center;
     margin: 0 auto;
-    height: 9vh;
+    height: 8vh;
+    padding-top: 20px;
 } 
 
 .heading-contact {
@@ -95,9 +100,13 @@ footer {
 .title {
     background-color: #A5C8E7;
     color: black;
-    width: 20vh;
-    height: 7vh;
+    width: 18vh;
+    height: 6vh;
     text-align: center;
+    padding-top: 9px;
+    margin-bottom: 0;
+    position: absolute;
+    margin-left: 20px;
 }
 
 .services-img,
@@ -125,6 +134,7 @@ footer {
 .for-all {
     padding-left: 55px;
     padding-right: 55px;
+    margin-bottom: 55px;
 }
 
 /*Home*/
@@ -172,10 +182,15 @@ footer {
 .news h2 {
     width: 15vh;
     height: 6vh;
+    padding-top: 5px;
+    margin-top: 0px;
+    top: 550px;
+    margin-left: 10px;
 }
 
 .news h3 {
     color: #FBFCDC;
+    margin-top: 0px;
 }
 
 .cta-date,
@@ -187,8 +202,9 @@ footer {
     background-color: #A5C8E7;
     color: black;
     width: 15vh;
-    height: 5vh;
+    height: 4vh;
     text-align: center;
+    padding-top: 10px;
 }
 
 .cta-date a {
@@ -201,12 +217,34 @@ footer {
     background-color: #fec400;
     color: black;
     width: 18vh;
-    height: 6vh;
+    height: 5vh;
+    padding-top: 10px;
+    margin-top: 0;
 }
 
 .cta {
     text-align: center;
     text-decoration: none;
+}
+
+.visiting,
+.loan {
+    text-align: right;
+}
+
+.exhibition-spaces {
+    margin-top: 60px;
+}
+
+.exhibition-spaces h2 {
+    margin-left: -28px;
+}
+
+.spaces-robo a,
+.spaces a {
+    margin-top: 30px;
+    margin-right: 20px;
+    float: inline-end;
 }
 
 /*Explore*/
@@ -216,6 +254,31 @@ footer {
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.for-all {
+    margin-top: 110px;
+}
+
+.ages {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+#teens {
+    bottom: 420px;
+}
+
+#kids {
+    bottom: 390px;
+}
+
+#teachers {
+    bottom: 445px;
+}
+
+#researches {
+    bottom: 350px;
 }
 
 /*Visit*/
@@ -250,6 +313,15 @@ footer {
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.rooms {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.rooms h2 {
+    padding-left: 25px;
 }
 
 /*Tickets*/

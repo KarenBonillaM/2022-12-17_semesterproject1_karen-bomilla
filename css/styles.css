@@ -101,13 +101,68 @@ main {
 
 footer {
     background-color: #fec400;
+    padding: 20px 15px;
+    font-size: 0.9em;
 }
 
-.location,
-.sign,
-.admission-foot,
+.hours-location {
+    display: flex;
+    padding-top: 15px;
+}
+
+.hours-location h4 {
+    margin-bottom: 0px;
+}
+
+.social-media {
+    font-size: 2em;
+    text-align: end;
+    padding-top: 20px;
+}
+
 .hours {
-    line-height: 8px;
+    flex: 1;
+    border-right: 2px solid #B18B0A;
+}
+
+.location {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.sign {
+    text-align: end;
+    border-bottom: 2px solid #B18B0A;
+}
+
+.sign p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    min-width: 340px;
+}
+
+.sign label {
+    font-weight: bold;
+}
+
+.sign_up {
+    border: 2px solid black;
+}
+
+.admission-foot {
+    margin-bottom: 0px;
+    border-bottom: 2px solid #B18B0A;
+    padding-bottom: 15px;
+}
+
+.admission-foot h4 {
+    margin-bottom: 0px;
+}
+
+.hours-location p,
+.admission-foot p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .heading-contact,

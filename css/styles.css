@@ -6,10 +6,30 @@
 
 header {
     margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+header a {
+    order: 2;
+}
+
+header section {
+    order: 1;
+}
+
+header i {
+    order: 3;
 }
 
 .logo {
     width: 9vh;
+}
+
+.fa-solid {
+    font-size: 1.8em;
 }
 
 nav,
@@ -21,6 +41,10 @@ nav {
     position: absolute;
     background-color:#FBFCDC;
     border: 2px solid #fec400;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 header {
@@ -79,6 +103,13 @@ footer {
     background-color: #fec400;
 }
 
+.location,
+.sign,
+.admission-foot,
+.hours {
+    line-height: 8px;
+}
+
 .heading-contact,
 .heading {
     background-color: #0277E0;
@@ -88,10 +119,6 @@ footer {
     height: 8vh;
     padding-top: 20px;
 } 
-
-.heading-contact {
-    width: 18vh;
-}
 
 .heading h1 {
     color: black;
@@ -137,6 +164,16 @@ footer {
     margin-bottom: 55px;
 }
 
+#support,
+#volunteer,
+#internship,
+#guided,
+#access,
+#nutriment,
+#store {
+    margin-top: 0px;
+}
+
 /*Home*/
 
 .spaces-robo,
@@ -157,7 +194,7 @@ footer {
 }
 
 .spaces-robo {
-    height: 62vh;
+    height: 65vh;
 }
 
 .spaces-robo img,
@@ -184,13 +221,27 @@ footer {
     height: 6vh;
     padding-top: 5px;
     margin-top: 0px;
-    top: 550px;
+    top: 510px;
     margin-left: 10px;
 }
 
 .news h3 {
     color: #FBFCDC;
     margin-top: 0px;
+}
+
+.news div {
+    padding: 10px;
+}
+
+.fa-regular {
+    font-size: 1.5em;
+}
+
+.energetica,
+.night-museum,
+.aeronautics {
+    height: 50vh;
 }
 
 .cta-date,
@@ -202,7 +253,7 @@ footer {
     background-color: #A5C8E7;
     color: black;
     width: 15vh;
-    height: 4vh;
+    height: 3vh;
     text-align: center;
     padding-top: 10px;
 }
@@ -232,6 +283,10 @@ footer {
     text-align: right;
 }
 
+.loan {
+    padding-top: 15px;
+}
+
 .exhibition-spaces {
     margin-top: 60px;
 }
@@ -245,6 +300,12 @@ footer {
     margin-top: 30px;
     margin-right: 20px;
     float: inline-end;
+}
+
+#biology {
+    font-size: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*Explore*/
@@ -285,13 +346,22 @@ footer {
 
 .visit {
     background-image: url(../images/museum-building.jpg);
-    min-height: 50vh;
+    min-height: 55vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.tours,
+.accessibility,
+.food,
+.shop {
+    padding: 0px 15px;
+    position: relative;
+}
+
 .tours {
     background-color: #D47636;
+    height: 50vh;
 }
 
 .accessibility {
@@ -306,6 +376,38 @@ footer {
     background-color: #0277E0;
 }
 
+.admission {
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.admission h2 {
+    margin-bottom: 0px;
+}
+
+#guided {
+    bottom: 350px;
+}
+
+#access {
+    right: 20px;
+    bottom: 230.883px;
+}
+
+#nutriment {
+    font-size: 1em;
+    bottom: 230.883px;
+}
+
+#store {
+    right: 30px;
+    bottom: 270px;
+}
+
+.services p {
+    margin-bottom: 0px;
+}
+
 /*Exhibition spaces*/
 
 .exhibition {
@@ -316,7 +418,7 @@ footer {
 }
 
 .rooms {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 60px;
 }
 
@@ -329,6 +431,8 @@ footer {
 .tickets h1 {
     background-color: #C741A2;
     color: #FBFCDC;
+    height: 15vh;
+    padding-top: 60px;
 }
 
 /*Involved*/
@@ -340,8 +444,28 @@ footer {
     background-repeat: no-repeat;
 }
 
+.be-part {
+    margin-bottom: 60px;
+}
+
 .take-part {
     padding-top: 50px;
+}
+
+.be-part {
+    position: relative;
+}
+
+#support {
+    bottom: 410px;
+}
+
+#volunteer {
+    bottom: 485px;
+}
+
+#internship {
+    bottom: 390px;
 }
 
 /*Contact*/
@@ -367,7 +491,28 @@ footer {
 .submit {
     background-color: #0277E0;
     color: #FBFCDC;
+    float: right;
+    width: 10vh;
+    height: 3.5vh;
 }
+
+.heading-contact {
+    width: 18vh;
+    float: inline-end;
+    margin-top: 110px;
+    margin-right: 20px;
+}
+
+.form {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.form div {
+    padding-bottom: 20px;
+}
+
 
 
 

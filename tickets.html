@@ -37,13 +37,13 @@
             <h1>Buy tickets</h1>
         </section>
         <section>
-            <div>
+            <div class="tickets-flex tickets-header">
                 <p>Select Tickets</p>
                 <p>Price</p>
                 <p>Quantity</p>
             </div>
-            <fieldset>
-                <p>Adult</p>
+            <fieldset class="tickets-flex">
+                <p class="form-1">Adult</p>
                 <p>Free</p>
                 <select class="form_input">
                     <option>0</option>
@@ -59,8 +59,8 @@
                     <option>10</option>
                 </select>
             </fieldset>
-            <fieldset>
-                <p>Student</p>
+            <fieldset class="tickets-flex">
+                <p class="form-1">Student</p>
                 <p>Free</p>
                 <select class="form_input">
                     <option>0</option>
@@ -76,8 +76,8 @@
                     <option>10</option>
                 </select>
             </fieldset>
-            <fieldset>
-                <p>Child</p>
+            <fieldset class="tickets-flex">
+                <p class="form-1">Child</p>
                 <p>Free</p>
                 <select class="form_input">
                     <option>0</option>
@@ -93,8 +93,8 @@
                     <option>10</option>
                 </select>
             </fieldset>
-            <fieldset>
-                <p>Guided tour</p>
+            <fieldset class="tickets-flex">
+                <p class="form-1">Guided tour</p>
                 <p>Sek 70</p>
                 <select class="form_input">
                     <option>0</option>
@@ -112,19 +112,29 @@
             </fieldset>
         </section>
         <section>
-            <form method="post">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" class="form_input" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="form_input" required>
-                <legend>Payment</legend>
-                <label for="card_number">Card number</label>
-                <input type="tel" name="card_number" id="card_number" placeholder="Card Number" class="form_input" required>
-                <label for="yyyymm">YYYY/MM</label>
-                <input type="month" name="yyyymm" id="yyyymm" placeholder="YYYY/MM" class="form_input" required>
-                <label for="cvv">CVV</label>
-                <input type="tel" name="cvv" id="cvv" placeholder="CVV" class="form_input" required>
-                <input type="submit" value="Send" class="submit">
+            <form method="post" class="tickets-form payment">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form_input input-large" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form_input input-large" required>
+                </div>
+                <div>
+                    <legend>Payment</legend>
+                    <div>
+                        <label for="card_number">Card number</label>
+                        <input type="tel" name="card_number" id="card_number" placeholder="Card Number" class="form_input input-large" required>
+                    </div>
+                    <div>
+                        <label for="yyyymm">YYYY/MM</label>
+                        <input type="month" name="yyyymm" id="yyyymm" placeholder="YYYY/MM" class="form_input" required>
+                        <label for="cvv">CVV</label>
+                        <input type="tel" name="cvv" id="cvv" placeholder="CVV" class="form_input" required>
+                    </div>
+                    <input type="submit" value="Send" class="submit">
+                </div>
             </form>
         </section>
     </main>

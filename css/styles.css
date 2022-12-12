@@ -343,11 +343,11 @@ footer {
 }
 
 .night-p {
-    width: 50vh;
+    width: 50%;
 }
 
-.img-flex {
-    order:2;
+.night-container {
+    flex-direction: row-reverse;
 }
 
 .fa-regular {
@@ -449,6 +449,10 @@ footer {
     margin-top: -10px;
 }
 
+#ecology-img {
+    height: 32vh;
+}
+
 #biology {
     font-size: 1em;
     padding-top: 5px;
@@ -521,7 +525,7 @@ footer {
 
 .tours {
     background-color: #D47636;
-    height: 50vh;
+    height: 40vh;
     padding-bottom: 6em;
 }
 
@@ -535,11 +539,6 @@ footer {
 
 .accessibility {
     background-color: #fec400;
-}
-
-.shop img,
-.accessibility img {
-    order: 2;
 }
 
 .food {
@@ -602,6 +601,10 @@ footer {
     align-items: center;
     padding-top: 40px;
     align-items: center;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
 }
 
 /*Exhibition spaces*/
@@ -981,6 +984,7 @@ body {
 
 .tours {
     padding-bottom: 0px;
+    height: 45vh;
 }
 
 .services-flex {
@@ -1041,7 +1045,7 @@ body {
 @media (min-width:1201px) {
 
 
-    
+
 }
 
 

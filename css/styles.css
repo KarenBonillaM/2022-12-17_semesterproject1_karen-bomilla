@@ -6,7 +6,7 @@
 
 html,
 body {
-    width: 100%;
+    width: 100%,
 }
 
 header {
@@ -343,7 +343,7 @@ footer {
 }
 
 .night-p {
-    width: 20vh;
+    width: 50vh;
 }
 
 .img-flex {
@@ -362,6 +362,8 @@ footer {
 
 .container-flex {
     display: flex;
+    align-items: center;
+    justify-content: center     ;
 }
 
 .cta-date,
@@ -460,6 +462,7 @@ footer {
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .for-all {
@@ -499,6 +502,7 @@ footer {
     min-height: 55vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tours,
@@ -518,6 +522,7 @@ footer {
 .tours {
     background-color: #D47636;
     height: 50vh;
+    padding-bottom: 6em;
 }
 
 .tours-container {
@@ -596,6 +601,7 @@ footer {
 .services-flex {
     align-items: center;
     padding-top: 40px;
+    align-items: center;
 }
 
 /*Exhibition spaces*/
@@ -605,6 +611,7 @@ footer {
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .rooms {
@@ -693,6 +700,7 @@ footer {
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .be-part {
@@ -739,9 +747,13 @@ footer {
     flex-direction: column;
 }
 
-.contact img {
-    width: 85%;
-    position: relative;
+.contact {
+    background-image: url(/images/astronaut.jpg);
+    min-height: 50vh;
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contact h1 {
@@ -763,6 +775,7 @@ footer {
     min-width: 15vh;
     height: 5vh;
     font-size: 1.1em;
+    font-weight: bold;
 }
 
 .heading-contact {
@@ -795,6 +808,241 @@ footer {
     font-weight: bold;
 }
 
+@media (min-width:800px) {
+.logo {
+    width: 11vh;
+}
+
+.magnifying-glass, 
+.hamburguer-menu {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+body {
+    font-size: 1.3em;
+}
+
+.heading {
+    height: 10vh;
+}
+
+.social-media {
+    padding-top: 50px;  
+}
+
+.container-flex {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*Home*/
+
+.news h2 {
+    height: 8vh;
+}
+
+.news h3 {
+    font-size: 1.6em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.news img {
+    height: 30vh;
+    width: 30vh;
+}
+
+.news p {
+    line-height: 2rem;
+}
+
+.energetica,
+.night-museum,
+.aeronautics {
+    height: 58vh;
+}
+
+.energetica p,
+.aeronautics p {
+    padding-left: 2em;
+}
+
+.night-museum p {
+    padding-right: 2em;
+}
+
+.cta-date {
+    width: 16vh;
+    height: 4vh;
+}
+
+.cta-date-left {
+    margin-right: 200px;
+}
+
+.cta-date-right {
+    margin-left: 200px;
+}
+
+.exhibition-spaces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.exhibition-spaces h2 {
+    padding-left: 2.8em;
+    grid-column: -1/1;
+}
+
+.spaces-1, 
+.spaces-2 {
+    height: 60vh;
+}
+
+.spaces-robo {
+    height: 75vh;
+}
+
+.cta h3 {
+    height: 7vh;
+}
+
+/*Explore*/
+
+.explore {
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.for-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ages {
+    margin-top: 0px;
+}
+
+.for-all h2 {
+    font-size: 1em;
+}
+
+/*Visit*/
+
+.visit {
+    min-height: 70vh;
+}
+
+.admission p {
+    margin-bottom: 70px;
+}
+
+.admission h2 {
+    padding-left: 1.3em;
+}
+
+.services {
+    margin-bottom: 6em;
+}
+
+.services h2 {
+    font-size: 1.3em;
+    width: 25vh;
+}
+
+.services p {
+    line-height: 2rem;
+}
+
+.services-flex {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.services-img {
+    height: 35vh;
+    width: 35vh;
+}
+
+.accessibility,
+.food,
+.shop {
+    height: 50vh;
+}
+
+.tours {
+    padding-bottom: 0px;
+}
+
+.services-flex {
+    padding-top: 3em;
+}
+
+/*Involved*/
+
+.involved {
+    background-position-y: center;
+}
+
+.take-part {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.take-part h2 {
+    width: 26vh;
+    height: 8vh;
+}
+
+.be-part {
+    padding-bottom: 15px;
+}
+
+/*About Us*/
+
+.about img {
+    height: 65vh;
+    width: 100%;
+}
+
+/*Contact Us*/
+
+.contact {
+    min-height: 60vh;
+}
+
+.heading-contact {
+    font-size: 1.8em;
+    width: 22vh;
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+
+.submit {
+    min-width: 16vh;
+    height: 6vh;
+}
+}
+
+@media (min-width:1201px) {
+
+
+    
+}
 
 
 

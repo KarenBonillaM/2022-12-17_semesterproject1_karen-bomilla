@@ -807,7 +807,7 @@ footer {
     font-weight: bold;
 }
 
-@media (min-width:800px) {
+@media (min-width:800px) and (max-width:1199px){
 .logo {
     width: 11vh;
 }
@@ -885,7 +885,7 @@ body {
 }
 
 .cta-date {
-    width: 16vh;
+    width: 18vh;
     height: 4vh;
 }
 
@@ -909,15 +909,24 @@ body {
 
 .spaces-1, 
 .spaces-2 {
-    height: 60vh;
+    height: 75vh;
+    width: 38vh;
 }
 
 .spaces-robo {
-    height: 75vh;
+    height: 90vh;
+    width: 38vh;
 }
 
 .cta h3 {
-    height: 7vh;
+    height: 8vh;
+}
+
+.spaces-1 img,
+.spaces-2 img,
+.spaces-robo img {
+    width: 38vh;
+    height: 26vh;
 }
 
 /*Explore*/

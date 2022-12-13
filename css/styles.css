@@ -93,7 +93,7 @@ h1 {
 h1, 
 h2 {
     color: #0277E0;
-    font-family: "Anton";
+    font-family: "Anton", Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
@@ -447,10 +447,6 @@ footer {
 
 .spaces-robo a {
     margin-top: -10px;
-}
-
-#ecology-img {
-    height: 32vh;
 }
 
 #biology {
@@ -848,6 +844,11 @@ body {
 
 /*Home*/
 
+.welcome img {
+    height: 60vh;
+    width: 100%;
+}
+
 .news h2 {
     height: 8vh;
 }
@@ -1042,9 +1043,67 @@ body {
 }
 }
 
-@media (min-width:1201px) {
+@media (min-width:1200px) {
+.hamburguer-icon {
+    display: none;
+}
 
+header a {
+    order: initial;
+}
 
+header nav {
+    display: contents;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 30px;
+}
+
+.logo {
+    width: 14vh;
+}
+
+.magnifying-glass {
+    font-size: 1.5em;
+}
+
+header a {
+    font-family: "Anton", Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+/*Home*/
+.welcome img {
+    height: 70vh;
+}
+
+.exhibition-spaces {
+    display: block;
+}
+
+.spaces-1,
+.spaces-2,
+.spaces-robo {
+    display: flex;
+    height: 40vh;
+    width: 120vh;
+    align-items: center;
+}
+
+.spaces-1 img,
+.spaces-2 img,
+.spaces-robo img {
+    width: 50vh;
+    height: 40vh;
+}
+
+.cta h3 {
+    width: 20vh;
+    height: 8vh;
+}
 
 }
 

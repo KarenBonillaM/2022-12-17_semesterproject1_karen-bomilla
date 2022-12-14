@@ -259,7 +259,7 @@ footer {
 
 .spaces-1,
 .spaces-2 {
-    height: 55vh;
+    height: 63vh;
 }
 
 .spaces-robo p,
@@ -271,7 +271,7 @@ footer {
 }
 
 .spaces-robo {
-    height: 65vh;
+    height: 75vh;
 }
 
 .spaces-robo img,
@@ -283,7 +283,7 @@ footer {
 }
 
 .aeronautics {
-    background-color: #459720;
+    background-color: #0277E0;
 }
 
 .aeronautics h3 {
@@ -296,7 +296,7 @@ footer {
 }
 
 #aeronautics-cta {
-    margin-top: 10px;
+    margin-top: -10px;
     margin-bottom: 0px;
 }
 
@@ -360,6 +360,11 @@ footer {
     height: 40vh;
 }
 
+.energetica h3,
+.aeronautics h3 {
+    padding-right: 30px;
+}
+
 .container-flex {
     display: flex;
     align-items: center;
@@ -402,7 +407,7 @@ footer {
     background-color: #fec400;
     color: black;
     width: 18vh;
-    height: 5vh;
+    height: 6vh;
     padding-top: 10px;
     margin-top: 0;
 }
@@ -596,7 +601,6 @@ footer {
 .services-flex {
     align-items: center;
     padding-top: 40px;
-    align-items: center;
 }
 
 .flex-reverse {
@@ -1053,12 +1057,19 @@ body {
 }
 
 @media (min-width:1200px) {
+
 .hamburguer-icon {
     display: none;
 }
 
+header {
+    max-width: 1300px;
+    margin: auto;
+}
+
 header a {
     order: initial;
+    font-size: 1.3em;
 }
 
 header nav {
@@ -1084,9 +1095,34 @@ header a {
     font-weight: normal;
 }
 
+footer {
+    font-size: 1.2em;
+    padding: 30px 35px;
+}
+
+.services-img,
+.news-img {
+    height: 50vh;
+    width: 50vh;
+}
+
+.heading {
+    font-size: 2.5em;
+    height: 10vh;
+}
+
 /*Home*/
 .welcome img {
     height: 70vh;
+    width: 100%;
+}
+
+.welcome-info {
+    max-width: 1300px;
+    margin: auto;
+    font-size: 1.3em;
+    height: 30vh;
+    text-align: center;
 }
 
 .exhibition-spaces {
@@ -1112,6 +1148,168 @@ header a {
 .cta h3 {
     width: 20vh;
     height: 8vh;
+}
+
+.container-flex {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.news h2 {
+    font-size: 2.5em;
+    width: 18vh;
+    height: 8vh;
+    margin-left: 2.5em;
+}
+
+.news h3 {
+    font-size: 2em;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.energetica,
+.night-museum,
+.aeronautics {
+    height: 75vh;
+}
+
+.energetica h3,
+.aeronautics h3 {
+    margin-right: 130px;
+}
+
+.night-museum h3 {
+    margin-left: 130px;
+}
+
+.energetica p,
+.aeronautics p {
+    padding-left: 30px;
+}
+
+.night-museum p {
+    padding-right: 30px;    
+}
+
+.news p {
+    font-size: 1.3em;
+}
+
+.cta-date {
+    width: 18vh;
+    height: 5vh;
+    margin-top: -70px;
+}
+
+.cta-date-left {
+    margin-right: 200px;  
+}
+
+.cta-date-right {
+    margin-left: 180px;
+}
+
+#aeronautics-cta {
+    margin-top: -70px;
+}
+
+.exhibition-spaces h2 {
+    padding-left: 4.5em;
+    font-size: 2em;
+}
+
+.exhibition-spaces p {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+/*Explore*/
+.explore {
+    background-size: contain;
+    min-height: 75vh;
+    background-repeat: repeat;
+}
+
+/*Visit*/
+.visit {
+    min-height: 80vh;
+}
+
+.tours {
+    height: 50vh;
+}
+
+.accessibility,
+.food,
+.shop {
+    height: 60vh;
+}
+
+.admission {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 2em;
+}
+
+.title {
+    width: 22vh;
+    height: 8vh;
+    padding-top: 20px;
+}
+
+.services p {
+    font-size: 1.5em;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+#nutriment {
+    font-size: 1.5em;
+}
+
+.services {
+    margin-top: 3em;
+    margin-bottom: 8em;
+}
+
+.services-flex {
+    padding-top: 60px;
+}
+    
+.tours div {
+    padding-top: 60px;
+}
+
+#nutriment,
+#guided {
+    margin-left: 8em;
+}
+
+#access,
+#store {
+    margin-right: 8em;
+}
+
+/*About Us*/
+.csm-info {
+    font-size: 1.3em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about h1 {
+    font-size: 2.5em;
+}
+
+/*Contact*/
+.contact {
+    min-height: 70vh;
+}
+
+.form {
+    max-width: 700px;
+    margin: 80px auto 80px auto;
 }
 
 }

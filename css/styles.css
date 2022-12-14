@@ -598,6 +598,10 @@ footer {
     width: 20vh;
 }
 
+.services h2 {
+    font-size: 1.2em;
+}
+
 .services-flex {
     align-items: center;
     padding-top: 40px;
@@ -689,11 +693,29 @@ footer {
 }
 
 .input-large {
-    min-width: 30vh;
+    width: 30vh;
 }
 
 .payment input {
     margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.input-small {
+    width: 10vh;
+}
+
+.container-grid {
+    display: grid;
+    align-items: center;
+}
+
+.choose-tickets {
+    max-width: 1000px;
+    margin: auto;
 }
 
 /*Involved*/
@@ -972,7 +994,7 @@ body {
 }
 
 .services h2 {
-    font-size: 1.3em;
+    font-size: 1em;
     width: 25vh;
 }
 
@@ -1005,6 +1027,12 @@ body {
     padding-top: 3em;
 }
 
+
+/*Exhibition*/
+.rooms p {
+    line-height: 2.8rem;
+}
+
 /*Involved*/
 
 .involved {
@@ -1019,10 +1047,16 @@ body {
 .take-part h2 {
     width: 26vh;
     height: 8vh;
+    font-size: 1em;
 }
 
 .be-part {
     padding-bottom: 15px;
+}
+
+.be-part p {
+    font-size: 0.8em;
+    line-height: 2rem;
 }
 
 /*About Us*/
@@ -1039,7 +1073,7 @@ body {
 }
 
 .heading-contact {
-    font-size: 1.8em;
+    font-size: 1.5em;
     width: 22vh;
 }
 
@@ -1231,6 +1265,47 @@ footer {
     background-repeat: repeat;
 }
 
+.for-all {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5em;
+    padding-top: 100px;
+}
+
+.for-all p {
+    line-height: 2rem;
+}
+
+.ages {
+    width: auto;
+}
+
+.ages h2 {
+    width: 27vh;
+    height: 12vh;
+}
+
+#teachers {
+    height: 16vh;
+}
+
+/*Exhibition*/
+.exhibition {
+    min-height: 80vh;
+}
+
+.rooms {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-top: 70px;
+}
+
+.rooms p {
+    line-height: 2rem;
+}
+
 /*Visit*/
 .visit {
     min-height: 80vh;
@@ -1291,6 +1366,27 @@ footer {
     margin-right: 8em;
 }
 
+/*Get Involved*/
+.involved {
+    min-height: 80vh;
+}
+
+.take-part {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.be-part {
+    margin-top: 80px;
+}
+
+.be-part p {
+    line-height: 2rem;
+}
+
+
 /*About Us*/
 .csm-info {
     font-size: 1.3em;
@@ -1311,6 +1407,42 @@ footer {
     max-width: 700px;
     margin: 80px auto 80px auto;
 }
+
+/*Tickets*/
+.tickets h1 {
+    font-size: 2rem;
+    height: 14vh;
+}
+
+.choose-tickets {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.5rem;
+    padding-top: 80px;
+}
+
+.form_input {
+    height: 7vh;
+    min-width: 10vh;
+}
+
+.info-tickets {
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.5em;
+    line-height: 2.5rem;
+}
+
+.input-large {
+    height: 4vh;
+    width: 40vh;
+}
+
+.input-small {
+    height: 4vh;
+    width: 20vh;
+}
+
 
 }
 

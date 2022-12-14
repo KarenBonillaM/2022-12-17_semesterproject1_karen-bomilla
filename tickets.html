@@ -38,7 +38,7 @@
         <section class="tickets">
             <h1>Buy tickets</h1>
         </section>
-        <section>
+        <section class="choose-tickets">
             <div class="tickets-flex tickets-header">
                 <p>Select Tickets</p>
                 <p>Price</p>
@@ -113,27 +113,28 @@
                 </select>
             </fieldset>
         </section>
-        <section>
+        <section class="info-tickets">
             <form method="post" class="tickets-form payment">
-                <div>
+                <legend>Information</legend>
+                <div class="container-grid">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" class="form_input input-large" required>
                 </div>
-                <div>
+                <div class="container-grid">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" class="form_input input-large" required>
                 </div>
                 <div>
                     <legend>Payment</legend>
-                    <div>
+                    <div class="container-grid">
                         <label for="card_number">Card number</label>
-                        <input type="tel" name="card_number" id="card_number" placeholder="Card Number" class="form_input input-large" required>
+                        <input type="tel" name="card_number" id="card_number" class="form_input input-large" required>
                     </div>
                     <div>
                         <label for="yyyymm">YYYY/MM</label>
-                        <input type="month" name="yyyymm" id="yyyymm" placeholder="YYYY/MM" class="form_input" required>
+                        <input type="month" name="yyyymm" id="yyyymm" class="form_input input-small" required>
                         <label for="cvv">CVV</label>
-                        <input type="tel" name="cvv" id="cvv" placeholder="CVV" class="form_input" required>
+                        <input type="tel" name="cvv" id="cvv" class="form_input input-small" required>
                     </div>
                     <input type="submit" value="Send" class="submit">
                 </div>

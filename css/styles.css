@@ -37,6 +37,7 @@ header i {
     font-size: 1.8em;
 }
 
+#site-search-box,
 #site-search {
     display: none;
 }

@@ -1,0 +1,53 @@
+.form-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background: url(/images/astronaut.jpg) center no-repeat;
+    min-height: 50vh;
+    width: 90%;
+    background-size: cover;
+}
+
+.contact h1 {
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    padding: 20px 10px 0px 10px;
+}
+
+.sign_up,
+.submit {
+    border-radius: 5px;
+}
+
+.heading-contact {
+    width: 18vh;
+    float: inline-end;
+    margin-right: 10px;
+}
+
+.form {
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.form div {
+    padding-bottom: 20px;
+}
+
+#name,
+#email {
+    height: 3.5vh;
+}
+
+#message {
+    height: 14vh;
+}
+
+.form label {
+    font-size: 1.3em;
+    font-weight: bold;
+}

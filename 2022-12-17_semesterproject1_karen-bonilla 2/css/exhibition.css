@@ -1,0 +1,34 @@
+.exhibition {
+    background: url(../images/elephant-museum.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.rooms {
+    margin-top: 4.5em;
+    margin-bottom: 6em; 
+}
+
+.rooms img {
+    height: 100%;
+}
+
+.rooms p {
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+}
+
+.rooms h2 {
+    padding-left: 25px;
+}
+
+.rooms-margin {
+    margin-bottom: 5em;
+}
+
+.exhibition-img {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}

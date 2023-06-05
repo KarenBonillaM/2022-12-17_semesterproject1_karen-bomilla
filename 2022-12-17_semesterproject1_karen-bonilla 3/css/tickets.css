@@ -1,0 +1,71 @@
+.tickets h1 {
+    background-color: #C741A2;
+    color: var(--background-color);
+    height: 12vh;
+    padding-top: 60px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.tickets-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-1 {
+    justify-self: start;
+}
+
+.tickets-header {
+    font-weight: bold;
+}
+
+.form_input {
+    border-radius: 10px;
+    height: 3.5vh;
+    min-width: 6vh;
+}
+
+.tickets-form {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.input-large {
+    width: 35vh;
+}
+
+.payment input {
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.input-small {
+    width: 10vh;
+}
+
+.container-grid {
+    display: grid;
+    align-items: center;
+}
+
+.choose-tickets {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.info-tickets {
+    max-width: 350px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+

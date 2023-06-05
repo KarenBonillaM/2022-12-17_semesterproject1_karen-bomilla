@@ -1,0 +1,104 @@
+.visit {
+    background: url(../images/museum-building.jpg) center no-repeat;
+    min-height: 55vh;
+    background-size: cover;
+}
+
+.tours,
+.accessibility,
+.food,
+.shop {
+    padding: 0px 15px;
+    position: relative;
+}
+
+.accessibility,
+.food,
+.shop {
+    height: 35vh;
+}
+
+.tours {
+    background-color: #D47636;
+    height: 40vh;
+    padding-bottom: 6em;
+}
+
+.tours-container {
+    padding-top: 15px;
+}
+
+.tours div {
+    padding-top: 1.5em;
+}
+
+.accessibility {
+    background-color: var(--footer-color);
+}
+
+.food {
+    background-color: #C741A2;
+}
+
+.shop {
+    background-color: #0277E0;
+}
+
+.admission {
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.admission h2 {
+    margin-bottom: 0px;
+}
+
+#guided {
+    bottom: 350px;
+}
+
+#access {
+    right: 20px;
+    bottom: 230.883px;
+}
+
+#nutriment {
+    bottom: 230.883px;
+}
+
+#store {
+    right: 30px;
+    bottom: 270px;
+}
+
+.services p {
+    margin-bottom: 0px;
+    line-height: 1.3rem;
+    margin-top: 0px;
+}
+
+.paragraph-right {
+    padding-left: 1em;
+}
+
+.paragraph-left {
+    padding-right: 1em;
+}
+
+.services-img {
+    height: 20vh;
+    width: 20vh;
+}
+
+.services h2 {
+    font-size: 1.2em;
+}
+
+.services-flex {
+    align-items: center;
+    padding-top: 40px;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}

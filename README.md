@@ -1,22 +1,22 @@
 # Community Science Museum
 
+# 2022-12-17_semesterproject1_karen-bomilla
+
 ![image](./images/logo.png)
 
-Community Science Museum is a website
+Community Science Museum is a museum website focused on teenagers and older kids who enjoy science and exploration.
 
 ## Description
 
-This is a blog about fashion and Nordic culture written from the women's Latin perspective.
+Community Science Museum is a website that I build for my semester project at my school Noroff.
 
-Swexican Blog is a delightful blend of fashion inspiration, cultural insights, and thought-provoking discussions that celebrate individuality and creative expression.
-
-You can add some bullet points if you'd like to:
+The webpage is a platform that shares the news, exhibitions, and all the services the museum has to offer
 
 - Home page
 - Explore page
 - Exhibiton page
-- Contanct Community Science Museum
-- About Community Science Museum
+- Contanct The Community Science Museum
+- About The Community Science Museum
 - Get involved page
 
 ## Built With
@@ -48,12 +48,6 @@ As this being a school project, it is not open for contributions.
 
 ## Contact
 
-[My Twitter page](www.twitter.com)
+[My Instagram page](https://www.instagram.com/karensofiabonillam)
 
-[My LinkedIn page](www.linkedin.com)
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
-
-# 2022-12-17_semesterproject1_karen-bomilla
+[My LinkedIn page](https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BfOA0gDejTF6O26SLmggcmA%3D%3D)
